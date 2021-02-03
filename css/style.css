@@ -26,3 +26,8 @@ nav {
   background-color: red;
   margin: 30px 15px;
 }
+
+section.about {
+  background-color: #1abc9c;
+  height: 400px;
+}
