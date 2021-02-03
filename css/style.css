@@ -31,3 +31,7 @@ section.about {
   background-color: #1abc9c;
   height: 400px;
 }
+
+section.contact {
+  height: 400px;
+}
