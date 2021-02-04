@@ -37,6 +37,7 @@ ul {
   display: inline-block;
   vertical-align: middle;
   color: white;
+  margin: 10px auto 20px;
 }
 
 .divider::before, .divider::after {
@@ -117,7 +118,7 @@ nav a {
 
 h1 {
   font-weight: 700;
-  padding: 10px 0;
+  padding-top: 10px;
 }
 /* fine jumbotron */
 
@@ -127,7 +128,6 @@ h2 {
   font-weight: 700;
   font-size: 48px;
   color: #2c3e50;
-  margin-bottom: 20px;
 }
 
 .box_img {
@@ -149,6 +149,7 @@ h2 {
   right: 0;
   bottom: 0;
   background: rgba(26, 188, 156, 0.9);
+  z-index: 1;
 }
 
 .box_img:hover .overlay {
@@ -174,7 +175,7 @@ section#about {
   font-size: 18px;
   font-weight: 500;
   line-height: 170%;
-  padding: 30px 10px 60px;
+  padding: 0 10px 60px;
 }
 
 #about a {
@@ -190,10 +191,42 @@ section#about {
   color: white;
 }
 /* fine sezione about */
+/* sezione contact */
 
-section#contact {
-  height: 400px;
+#contact input {
+  width: 100%;
+  padding: 35px 0;
+  margin: 10px auto;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+  font-size: 22px;
+  font-weight: 500;
 }
+
+#contact textarea {
+  width: 100%;
+  height: 250px;
+  padding: 35px 0;
+  margin: 10px auto;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#contact .btn_send {
+  background-color: #1abc9c;
+  color: white;
+  font-weight: 500;
+  padding: 20px 30px;
+}
+
+#contact .btn_send:hover {
+  background-color: #159a80;
+}
+/* fine sezione contact */
 /* fine Main */
 section {
   padding-top: 70px;
