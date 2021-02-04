@@ -78,13 +78,36 @@ nav a {
 /* jumbotron */
 .jumbotron {
   background-color: #1abc9c;
-  height: 700px;
 }
 
 .jumbotron_center {
-  background-color: yellow;
-  height: 500px;
-  padding: 60px 0;
+  padding: 130px 0 60px;
+}
+
+.jumbotron img {
+  height: 250px;
+}
+
+h1 {
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.divider_icon {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.divider::before, .divider::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  vertical-align: middle;
+  margin: 0 20px;
+  border-radius: 3px;
 }
 /* fine jumbotron */
 /* Main */
