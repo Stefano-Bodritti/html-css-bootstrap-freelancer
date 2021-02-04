@@ -16,7 +16,7 @@ body {
 }
 
 .container_small {
-  max-width: 700px;
+  max-width: 750px;
   margin: auto;
 }
 
@@ -108,7 +108,7 @@ nav a {
 }
 
 .jumbotron_center {
-  padding: 130px 0 40px;
+  padding: 130px 0 30px;
 }
 
 .jumbotron img {
@@ -125,8 +125,9 @@ h1 {
 /* sezione portfolio */
 h2 {
   font-weight: 700;
-  font-size: 47px;
+  font-size: 48px;
   color: #2c3e50;
+  margin-bottom: 20px;
 }
 
 .box_img {
@@ -164,17 +165,37 @@ h2 {
   font-size: 60px;
 }
 /* fine sezione portfolio */
-
+/* sezione about */
 section#about {
   background-color: #1abc9c;
-  height: 400px;
 }
+
+#about p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 170%;
+  padding: 30px 10px 60px;
+}
+
+#about a {
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#about a:hover {
+  text-decoration: none;
+  color: white;
+}
+/* fine sezione about */
 
 section#contact {
   height: 400px;
 }
 /* fine Main */
 section {
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 90px;
 }
